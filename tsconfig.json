@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                        // Zieldateiformat (ES6 für modernen JavaScript-Code)
+    "module": "commonjs",                    // Modulsystem (CommonJS ist für Node.js)
+    "strict": true,                          // Alle strengen TypeScript-Prüfungen aktivieren
+    "esModuleInterop": true,                 // Ermöglicht die Nutzung von CommonJS-Modulen
+    "skipLibCheck": true,                    // Überspringt Bibliotheks-Checks
+    "forceConsistentCasingInFileNames": true,  // Verhindert Dateinamen mit unterschiedlicher Groß-/Kleinschreibung
+    "outDir": "./dist",                      // Ausgabeordner für die kompilierte JavaScript-Datei
+    "rootDir": "./src",                      // Quellcode-Ordner (wo deine .ts-Dateien sind)
+    "declaration": true,                     // Erzeugt .d.ts-Dateien für TypeScript-Typen (optional)
+    "sourceMap": true                        // Erstellt .map-Dateien für Debugging
+  },
+  "include": [
+    "src/**/*.ts"                            // Alle .ts-Dateien im src-Ordner
+  ],
+  "exclude": [
+    "node_modules"                           // Schließt den node_modules-Ordner aus
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "dart-2-js-bridge",
+  "version": "1.0.0",
+  "description": "a way to include dart code in JS and TS",
+  "scripts": {
+    "dev": "tsc && npm run start",
+    "start": "node dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
